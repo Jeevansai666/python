@@ -1,0 +1,4 @@
+bitwise_expr = "1A0B0C1"
+bitwise_expr = bitwise_expr.replace('A', ' & ').replace('B', ' | ').replace('C', ' ^ ')
+result = eval(bitwise_expr)
+print("Result:", result)
